@@ -11,7 +11,7 @@
     align-self: end;
     padding-bottom: 200px;
 }
-img{
+.header-bg img{
     display: block;
     max-width: 100%;
     border-radius: 4px;
@@ -35,4 +35,11 @@ img{
     text-transform: uppercase;
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
     box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+.info-hd a:hover{
+    background: linear-gradient( #f2a50c ,#ffbf00);;
+    transition: 1s;
+}
+.ponto{
+    color: #ffbf00;
 }

@@ -1,5 +1,6 @@
 @import url(/header-e-menu/header.css);
 @import url(/header-e-menu/header2.css);
+@import url(./home.css);
 :root {
     --cor-0: #ffffff;
     --cor-1: #f7f7f7;

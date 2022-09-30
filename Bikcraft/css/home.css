@@ -1,0 +1,29 @@
+.bicicletas-bg{
+    padding: 40px 60px;
+}
+
+.bikelist{
+    display: flex;
+    gap: 40px;
+    
+}
+.bikelist a{
+    text-decoration: none;
+    color: inherit;
+}
+a img{
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.bicicletas-bg h2{
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+    margin-bottom: 40px;
+}
+.bikelist a h3{
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+.bikelist a span{
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+    color: var(--cor-8);
+}
