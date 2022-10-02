@@ -5,24 +5,46 @@
 .bikelist{
     display: flex;
     gap: 40px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
     
+}
+.bikelist h2{
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .bikelist a{
     text-decoration: none;
     color: inherit;
 }
-a img{
+.bikelist a img{
     display: block;
     max-width: 100%;
-    border-radius: 5px;
+    padding-bottom: 16px;
 }
 .bicicletas-bg h2{
     margin-bottom: 40px;
 }
-.bikelist a h3{
-    font: 600 2rem/1.25 "Poppins", sans-serif;
+.bikelist h3{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+.bikelist h3::before{
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+    background: var(--cor-p1) ;
+    
 }
 .bikelist a span{
-    font: 500 1.125rem/1.35 "Roboto", sans-serif;
-    color: var(--cor-8);
+    padding-left: 20px;
 }
