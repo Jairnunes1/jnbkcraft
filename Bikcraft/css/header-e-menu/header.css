@@ -1,7 +1,8 @@
 header{
-    background: var(--cor-12);
     padding-top: 20px;
     padding-bottom: 20px;
+    background: var(--cor-12);
+    
 }
 .header-conteiner{
     display: flex;
