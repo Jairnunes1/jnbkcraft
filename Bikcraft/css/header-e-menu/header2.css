@@ -18,7 +18,6 @@
 }
 .info-hd h1 {
     color: var(--cor-0);
-    font: 600 4rem/1.125 "Poppins", sans-serif;
     margin-bottom: 32px;
 }
 .info-hd p {
