@@ -25,3 +25,18 @@
     font: 400 1.5rem/1.5 "Roboto", sans-serif;
     margin-bottom: 20px;
 }
+
+@media (max-width:600px){
+    .header-bg{
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+    }
+    .info-hd{
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .info-hd p{
+        font: 400 1rem/1.5 "Roboto", 
+    }
+}

@@ -60,12 +60,27 @@ header{
 }
 
 @media (max-width: 600px){
+
+    .header-conteiner{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: 1;
+        justify-content: center;
+    } 
+    .header-conteiner svg{
+        display: block;
+    }
     .navegacao{
         gap: 12px;
-    } 
+    }
     .navegacao a{
         padding: 8px 12px;
         font-size: 1rem;
     }  
+    .navegacao a:hover{
+        background: #3e2e2e;
+
+    }
 }
 
