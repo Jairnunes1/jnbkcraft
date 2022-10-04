@@ -1,0 +1,17 @@
+.tecnologias-bg{
+    background: #111111;
+    color: #fff;
+    
+}
+.tecnologias-box{
+    display: flex;
+    align-items: center;
+ 
+}
+
+.tecnologias-info h3{
+    color: var(--cor-9);
+}
+.tecnologias-info h2{
+    color: var(--cor-2);
+}
