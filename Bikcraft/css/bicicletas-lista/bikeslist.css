@@ -11,16 +11,6 @@
     overflow-x: auto;
     
 }
-.bikelist h2{
-    max-width: 1200px;
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
 .bikelist a{
     text-decoration: none;
     color: inherit;
