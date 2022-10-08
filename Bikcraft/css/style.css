@@ -5,17 +5,19 @@
 @import url(/css/css-utilitario/tipografia/tipografia.css);
 
 /* Estilos de cores */
-
 @import url(/css/css-utilitario/cores/cores.css);
 
 /* Componentes */
-
 @import url(/css/css-utilitario/componentes/componentes.css);
 
 /* HOME PAGE - Lista de Bicicletas */
-
 @import url(/css/bicicletas-lista/bikeslist.css);
 
 /* HOME PAGE - Tecnologias */
+@import url(/css/tecnologias/tecnologias.css);
 
-@import url(/css/tecnologias/tecnologias.css)
+/* HOME PAGE - Parceiros */
+@import url(/css/home/parceiros/parceiros.css);
+
+/* HOME PAGE - Depoimento */
+@import url(/css/home/depoimento/depoimento.css);
