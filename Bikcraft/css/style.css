@@ -24,3 +24,6 @@
 
 /* HOME PAGE - Seguros */
 @import url(/css/home/seguros/seguro.css);
+
+/* HOME PAGE - Footer */
+@import url(/css/home/footer/footer.css);

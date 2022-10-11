@@ -1,11 +1,14 @@
 .seguros-bg{
-    background-color: var(--cor-10);
+    background-color: var(--cor-11);
     color: #fff;
 }
 .seguros-conteudo{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .seguros-conteudo h2{
     grid-column: 1 / -1;
@@ -17,3 +20,37 @@
     grid-template-columns: 1fr auto;
     border-radius: 4px;
 }
+.seguro-item h3{
+    text-transform: uppercase;
+}
+.seguro-item ul{
+    margin-bottom: 16px;
+}
+.seguro-item li{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.seguro-item li::before{
+    content: "";
+    display: block;
+    background-image: url(/img/icones/lista.svg);
+    width: 13px;
+    height: 9px;
+    margin-right: 5px;
+    position: absolute;
+    left: -21px;
+}
+.seguro-item li + li{
+    margin-top: 10px;
+}
+.seguro-item a {
+    grid-column: 1;
+    max-width: max-content;
+    margin-top: 10px;
+}
+.seguro-item span {
+    display: block;
+    text-align: end;
+}
+/* Falta fazer o responsivo */
