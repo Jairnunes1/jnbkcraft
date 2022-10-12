@@ -1,0 +1,25 @@
+.escolhas-bg{
+    background-color: var(--cor-11);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.bike-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    gap: 40px;
+}
+.bike-conteudo{
+    display: grid;
+}
+.bike-conteudo ul li{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.bike-conteudo ul img{
+    width: 24px;
+    display: inline-block;
+}

@@ -1,6 +1,6 @@
 @import url(/css/css-utilitario/global/global.css);
-@import url(./header-e-menu/header.css);
-@import url(./header-e-menu/header2.css);
+@import url(/css/home/header-e-menu/header.css);
+@import url(/css/home/header-e-menu/header2.css);
 
 @import url(/css/css-utilitario/tipografia/tipografia.css);
 
@@ -11,10 +11,10 @@
 @import url(/css/css-utilitario/componentes/componentes.css);
 
 /* HOME PAGE - Lista de Bicicletas */
-@import url(/css/bicicletas-lista/bikeslist.css);
+@import url(/css/home/bicicletas-lista/bikeslist.css);
 
 /* HOME PAGE - Tecnologias */
-@import url(/css/tecnologias/tecnologias.css);
+@import url(/css/home/tecnologias/tecnologias.css);
 
 /* HOME PAGE - Parceiros */
 @import url(/css/home/parceiros/parceiros.css);
@@ -27,3 +27,6 @@
 
 /* HOME PAGE - Footer */
 @import url(/css/home/footer/footer.css);
+
+/* Bicicletas */
+@import url(/css/bicicletas/bicicletas.css);
