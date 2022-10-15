@@ -3,23 +3,58 @@
     padding-bottom: 60px;
     padding-top: 60px;
 }
+.bike-bg{
+    background-color: var(--cor-11);
+    box-shadow: -120px white;
+}
 .bike-info{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 60px;
     padding-top: 60px;
     gap: 40px;
+    background: url(../../img/dec/top-right.svg) no-repeat top 40px right 20px;
+
 }
 .bike-conteudo{
     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bike-conteudo h2{
+    margin-bottom: 10px;
+}
+.bike-conteudo h2::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    margin-bottom: 8px;
+}
+
+.bike-conteudo p{
+    grid-column: 1 / -1;
+}
+.bike-conteudo ul{
+    display: grid;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    grid-column: 1;
 }
 .bike-conteudo ul li{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10px;
-    padding-top: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
 }
 .bike-conteudo ul img{
     width: 24px;
     display: inline-block;
 }
+.bike-conteudo a{
+    display: flex;
+    align-items: center;
+    place-self: end;
+}
+
+/* Falta fazer o responsivo */
