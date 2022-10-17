@@ -4,8 +4,7 @@
     padding-top: 60px;
 }
 .bike-bg{
-    background-color: var(--cor-11);
-    box-shadow: -120px white;
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
 }
 .bike-info{
     display: grid;

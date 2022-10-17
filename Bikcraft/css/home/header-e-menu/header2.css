@@ -9,6 +9,7 @@
     grid-template-columns: 1fr 1fr;
     padding: 0px 60px 20px 20px;
     gap: 0px 40px;
+    background-image: url(/img/dec/top-right.svg)no-repeat top 40px right 20px;
 
 }
 .info-hd{
@@ -23,6 +24,7 @@
 .info-hd h1 {
     color: var(--cor-0);
     margin-bottom: 32px;
+
 }
 .info-hd p {
     color: var(--cor-4);
