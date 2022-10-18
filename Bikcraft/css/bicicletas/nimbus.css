@@ -1,0 +1,39 @@
+.nimbus-bg{
+  background-color: var(--cor-11);
+}
+.nimbus{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.bicicletas-imagem{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bicicletas-imagem img+img{
+  flex: 1;
+  min-width: 200px;
+}
+.nimbus-conteudo p{
+  margin-bottom: 32px;
+}
+.bicicleta-comprar a {
+  grid-row: span 2;
+}
+.bicicleta-comprar{
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  margin-bottom: 40px;
+  gap: 8px 12px;
+}
+.bicicleta-comprar span{
+  display: flex;
+  align-items: center;
+  background-color: var(--cor-12);
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
