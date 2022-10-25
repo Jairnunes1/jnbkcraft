@@ -1,4 +1,4 @@
-.content{
+.content {
   max-width: 1200px;
   box-sizing: border-box;
   padding-left: 20px;
@@ -18,7 +18,9 @@ h2,
 h3,
 h4,
 ul,
-p {
+p,
+blockquote,
+dd {
   margin: 0px;
 }
 

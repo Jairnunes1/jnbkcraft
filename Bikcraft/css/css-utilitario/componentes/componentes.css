@@ -8,7 +8,7 @@
     color: var(--cor-p5);
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
 }
-.botao.secundario {
+.secundario {
     background: var(--cor-10);
     color: var(--cor-2);
 }
