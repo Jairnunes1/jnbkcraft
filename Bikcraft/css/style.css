@@ -40,3 +40,6 @@
 /* Seguros */
 @import url(/css/seguros/seguros.css);
 @import url(../css/seguros/perguntas.css);
+
+/* Contato */
+@import url(/css/contato/contato.css);
