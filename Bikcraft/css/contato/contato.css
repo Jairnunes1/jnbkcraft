@@ -1,7 +1,46 @@
-.contato-bg{
-  background: linear-gradient(var(--cor-11)50% , var(--cor-0)0%);
+.contato-bg {
+  background: linear-gradient(var(--cor-11) 50%, var(--cor-0) 0%);
 }
-.contato{
+.contato {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  margin-bottom: 200px;
+}
+.contato-info,
+.contato-formulario {
+  padding: 60px;
+}
+.contato-info {
+  background: var(--cor-12);
+  border-radius: 5px 0 0 5px;
+}
+.contato-formulario {
+  background: var(--cor-0);
+  border-radius: 0 5px 5px 0;
+}
+.contato-info h2 {
+  margin-bottom: 32px;
+}
+.contato-endereco {
+  margin-bottom: 32px;
+  padding-left: 28px;
+  background: url(../../img/icones/local.svg) no-repeat 0px 2px;
+}
+.contato-endereco p {
+  margin-bottom: 8px;
+}
+.contato-meios {
+  margin-bottom: 32px;
+  padding-left: 28px;
+  background: url(../../img/icones/email.svg) no-repeat 0px 2px;
+}
+.contato-telefone {
+  margin-bottom: 32px;
+  padding-left: 28px;
+  background: url(../../img/icones/telefone.svg) no-repeat 0px 2px;
+}
+.contato-redes {
+  display: flex;
+  gap: 40px;
+  padding-left: 28px;
 }
