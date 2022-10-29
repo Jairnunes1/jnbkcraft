@@ -1,10 +1,10 @@
 .contato-bg {
-  background: linear-gradient(var(--cor-11) 50%, var(--cor-0) 0%);
+  background: linear-gradient(var(--cor-11) 50%, var(--cor-1) 0%);
 }
 .contato {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
 }
 .contato-info,
 .contato-formulario {

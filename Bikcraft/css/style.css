@@ -43,3 +43,5 @@
 
 /* Contato */
 @import url(/css/contato/contato.css);
+@import url(../css/contato/formulario.css);
+@import url(../css/contato/local.css);
